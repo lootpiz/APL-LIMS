@@ -1,0 +1,7 @@
+### How do you address the issue of different data schedules? What are your suggestions to match data coming from each machine in different times and how to improve data usability within the test? Consider that you can store, manage, transfer the data easily between systems. For the sake of this assignment, you have any possible resource (informatics) available to you.
+
+ * _Devise a program/script that will match the datasets, with the time differences, and commit to the repo. Text based answers are also considered._
+   * Multiple data integration at the patient level is challenging. Even TCGA (The Cancer Genome Atlas) provides multiple clinical information (documents) and researchers need to integrate them based on the date and time a document was created.
+   * To overcome this challenge, LIMS would be helpful for researchers to trace and monitor each job per patient, where metadata can include details such as sample location and data directory.
+   * Based on information on LIMS, researchers will be able to review/merge multiple datasets (i.e., Whole-genome, RNA-seq) per patient to generate a clinical report (i.e., ISO20428). Once a clinical report is generated, an amendment form can be used to update the reports.
+   * LIMS also allows researchers to check QC reports at their fingertips. If multiple datasets (i.e., reads generated from multi-lanes) passed QC, the researcher can merge them to have deeper reads for accurate variant calling or gene expression quantification.
