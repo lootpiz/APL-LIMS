@@ -18,5 +18,4 @@
    - Preprocessing
    - Post-QC
    - Reports (i.e., clinical reports)
- * Question 3
-   - 
+ * Question 3: https://github.com/lootpiz/APL-LIMS/blob/master/03_Preprocessing/Question3.md
