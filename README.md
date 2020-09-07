@@ -10,3 +10,13 @@
 ### Workflow
  * Sequence diagram // ![Sequence diagram](./imgs/LIMS_UML.png)
 
+### Responses
+ * Question 1: https://github.com/lootpiz/APL-LIMS
+ * Question 2
+   - Data sync/transfer via Rsync
+   - Quality control/check (QC)
+   - Preprocessing
+   - Post-QC
+   - Reports (i.e., clinical reports)
+ * Question 3
+   - 
