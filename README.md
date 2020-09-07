@@ -19,6 +19,7 @@
    - Preprocessing (alignment/variant calling)
    - Post-QC (alignment status inspection)
    - Reports (clinical reports, ISO20428)
+   - Archiving (FASTQ, BAM, and VCF)
  * Question 3: [Response](https://github.com/lootpiz/APL-LIMS/blob/master/03_Preprocessing/Question3.md)
    - [A set of codes](https://github.com/lootpiz/APL-LIMS/tree/master/03_Preprocessing)
  * Question 4: [Response](https://github.com/lootpiz/APL-LIMS/blob/master/01_Data_sync/Question4.md)
