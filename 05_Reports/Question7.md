@@ -6,4 +6,4 @@
    * Along with the clinical reports, diagnostic plots generated in QC process will be available on the same page on the APL-LIMS. The APL-LIMS also provides a symbol in different colors (i.e., red or green) to show the statuses/results of the processing whether there was problematic data.
 
  * _Long term storage is in another network hub (not in the lab intranet) which is also protected by the same firewall. What would be your preferred method to transfer data? Would be manual or automated transfer?_
-   * Once clinicians and bioinformaticians confirmed the clinical and other reports, raw and processed data can be automatically transferred to an archiving system that can be triggered by the APL-LIMS via Rsync. 
+   * Once clinicians and bioinformaticians confirmed the clinical and other reports, raw and processed data can be automatically transferred to an archiving system that can be triggered by the APL-LIMS via Rsync. Once sync is done, the APL-LIMS will notify bioinformaticians to delete files on the cluster. This process will be done manually.
