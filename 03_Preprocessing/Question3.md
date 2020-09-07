@@ -7,7 +7,7 @@
 
  * _We work in a clinical environment, how do you propose to validate these variants? You can add a .md/.txt/.rst file to the directory where this script/program is running with a quick explanation._
    * Experimental validations such as PCR or Fluidigm is the best approaches to validate variants from samples. However, it is challenging to validate all of the variants in error-prone regions (i.e., GC-rich regions) due to limited resources and turn-around time.  
-   * Misleading variant-calling errors can occur due to the use of the polymerase reaction and/or mapper-calling algorithms. By closely inspecting the variant calls and read alignment statues, I can determine likely false-positive calls from BAM/VCF files. 
+   * Misleading variant-calling errors can occur due to the use of the polymerase reaction and/or mapper-calling algorithms. By closely inspecting the variant calls and read alignment statues, a bioinformatician can determine likely false-positive calls according to the figures generated from the APL-LIMS in BAM/VCF files.
      * Case study: https://doi.org/10.1371/journal.pone.0181304
      * Inspection tool: https://github.com/lootpiz/CaReAl
 
