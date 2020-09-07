@@ -8,7 +8,7 @@
  * Prevent expired analytical holding times
 
 ### Workflow
- * Sequence diagram // ![Sequence diagram](./imgs/LIMS_UML.png)
+ * Sequence diagram   ![Sequence diagram](./imgs/LIMS_UML.png)
 
 ### Responses
  * Question 1: https://github.com/lootpiz/APL-LIMS
